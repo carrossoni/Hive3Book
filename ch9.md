@@ -1,6 +1,6 @@
-##9 OLAP and Hive
+# 9 OLAP and Hive
 
-##Materialized Views
+## Materialized Views
 
 ```sql
 create materialized view cube_cancellations_by_time 
@@ -103,7 +103,7 @@ describe formatted cube_cancellations_by_airline_time;
 ```
 
 
-##Advanced Aggregation 
+## Advanced Aggregation 
 
 ```sql
 with avg_day 
@@ -250,7 +250,7 @@ select * from cube_origin_dest;
 ```
 
 
-##Data sketches 
+## Data sketches 
 
 ```sql
 show functions like ‘ds_freq%’;
